@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta http-equiv="x-ua-compatiable" content="ie=edge" />
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="/style.css" />
         <title>E-Portfolio Thanakrit Wong-asa</title>
     </head>
-    <body>
-        <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+    <body class="mt-5" data-bs-spy="scroll" data-bs-target="#NavBar" data-bs-offset="90">
+        <nav id="NavBar" class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
@@ -17,19 +17,68 @@
                 <a class="navbar-brand mr-auto">Thanakrit Wong-asa</a>
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Activities</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Accomplishments</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Experiences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#AboutMe">About me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Activities">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Accomplishments">Accomplishments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Experiences">Experiences</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
         <header>
-
-        </header>
-        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-2 mt-3 pt-2 pb-2 text-black align-items-baseline bg-gray rounded-3">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <h1 class="display-3">Hello!</h1>
+                                <p class="display-6">My name is<br>Thanakrit Wong-asa</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p class="display-6">Please feels free to take a look at my e-Portfolio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>  
+        <div id="AboutMe">
+            <div class="container">
+                <hr/>
+                <h1 class="display-5">About Me</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://www.techoffside.com/wp-content/uploads/2021/02/Nyan-Cat.jpg" class="card-img-top" alt="Thanakrit Wong-asa">
+                            <div class="card-body">
+                                <h2 class="card-title">Personal Information</h2>
+                                <p class="card-text">Name: Thanakrit Wong-asa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+        </div>
+        <div id="Activities">
+            <div class="container">
+                <h1 class="display-5">Activities</h1>
+                <br><br><br><br>
+                <hr/>
+            </div>
+        </div>
+        <div id="Accomplishments">
+            <div class="container">
+                <h1 class="display-5">Accomplishments</h1>
+                <br><br><br><br>
+                <hr/>
+            </div>
+        </div>
+        <div id="Experiences">
+            <div class="container">
+                <h1 class="display-5">Experiences</h1>
+                <br><br><br><br>
+            </div>
         </div>
         <footer>
 
