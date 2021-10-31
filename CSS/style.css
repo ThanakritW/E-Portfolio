@@ -14,3 +14,6 @@ body{
 .topic{
     scroll-margin-top: 60px;
 }
+.card-text{
+    font-size: 18px;
+}
