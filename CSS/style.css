@@ -1,3 +1,7 @@
+:root{
+    --pmcolor: rgb(117, 102, 252);
+    --sdcolor: rgb(82, 65, 236);
+}
 @font-face {
     font-family: 'mitr';
     src: url('Mitr-Light.ttf');
@@ -17,3 +21,24 @@ body{
 .card-text{
     font-size: 18px;
 }
+.htopic{
+    color: var(--pmcolor);
+}
+.c-pm{
+    color: var(--pmcolor);
+}
+.c-sd{
+    color: var(--sdcolor);
+}
+.b-pm{
+    background-color: var(--pmcolor);
+}
+.b-sd{
+    background-color: var(--sdcolor);
+}
+b{
+    color: var(--pmcolor);
+}
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
