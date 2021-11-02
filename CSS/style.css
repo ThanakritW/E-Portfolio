@@ -1,8 +1,8 @@
 :root{
-    --pmcolor: rgb(117, 102, 252);
-    --sdcolor: rgb(82, 65, 236);
-    /* --pmcolor: #ff7aa4;
-    --sdcolor: #FF5E92; */
+    /* --pmcolor: rgb(117, 102, 252);
+    --sdcolor: rgb(82, 65, 236); */
+    --pmcolor: #ff7aa4;
+    --sdcolor: #FF5E92;
     /* --pmcolor: #ff9940;
     --sdcolor: #ff851b; */
 }
