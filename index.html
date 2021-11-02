@@ -5,13 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatiable" content="ie=edge" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <title>E-Portfolio Thanakrit Wong-asa</title>
+    <link rel="icon" href="data:image/png;base64,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" type="image/icon type">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#NavBar" data-bs-offset="55">
+<body data-bs-spy="scroll" data-bs-target="#NavBar" data-bs-offset="56">
     <div class="modal fade" id="pic1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -21,7 +23,7 @@
                 <div class="modal-body">
                     <img src="https://scontent.fbkk5-6.fna.fbcdn.net/v/t1.6435-9/215173950_2310413462422706_6319984749850905482_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=0QXL522XfqwAX9FZN5D&_nc_ht=scontent.fbkk5-6.fna&oh=f61141552d965322bca0c8e94db040d6&oe=61A4D336"
                         class="card-img-top" alt="Thanakrit Wong-asa">
-                </div>
+                </div>  
             </div>
         </div>
     </div>
@@ -29,23 +31,29 @@
         <div>
             <div class="container-fluid bg-dark">
                 <div class="row min-vh-100 align-items-center">
-                        <div class="col text-center" style="font-family: monospace;">
-                            <h1 class="display-1 htopic" >Hello World!</h1>
-                            <p class="display-5 text-white" style="line-height: 1.5em;">My name is <br class="d-md-none">Thanakrit Wong-asa<br>and this is my <br class="d-md-none"><b>E-Portfolio!</b></p>
-                            <p class ="text-white"style="font-size:30px; line-height: 1.5em;"><i class="c-pm bi bi-gear-fill"><br class="d-md-none"></i> I want to be a software engineer <br class="d-md-none"><i class="c-pm bi bi-gear-fill"></i></p>
-                            <a href="#AboutMe"class="btn b-pm fs-5" style="width: 250px; color:white;">Let's Get Started!</a>
-                        </div>
-                  </div>
+                    <div class="col text-center" style="font-family: monospace;">
+                        <h1 class="display-1 c-sd">Hello World!</h1>
+                        <p class="display-5 text-white" style="line-height: 1.5em;">My name is <br
+                                class="d-md-none">Thanakrit Wong-asa<br>and this is my <br
+                                class="d-md-none"><b>E-Portfolio!</b></p>
+                        <p class="text-white" style="font-size:30px; line-height: 1.5em;"><i
+                                class="c-pm bi bi-gear-fill"><br class="d-md-none"></i> I want to be a software engineer
+                            <br class="d-md-none"><i class="c-pm bi bi-gear-fill"></i></p>
+                        <a href="#AboutMe" class="btn b-sd fs-5" style="width: 250px; color:white;">Let's Get
+                            Started!</a>
+                    </div>
+                </div>
             </div>
         </div>
 
     </header>
-    <nav id="NavBar" class="b-sd navbar navbar-dark navbar-expand-md sticky-top">
+    <nav id="NavBar" class="b-sd navbar navbar-dark navbar-expand-md sticky-top fs-5">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="#"><i class="c-pm bi bi-gear-fill text-white"></i> Thanakrit Wong-asa</a>
+            <a class="navbar-brand mr-auto fs-5" href="#"><i class="c-pm bi bi-laptop text-white"></i> Thanakrit
+                Wong-asa</a>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav mr-auto d-flex justify-content-evenly w-100">
                     <li class="nav-item">
@@ -55,7 +63,8 @@
                         <a class="nav-link" href="#Activities"><i class="bi bi-cpu-fill"></i> Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Accomplishments"><i class="bi bi-trophy-fill"></i> Accomplishments</a>
+                        <a class="nav-link" href="#Accomplishments"><i class="bi bi-trophy-fill"></i>
+                            Accomplishments</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Experiences"><i class="bi bi-eye-fill"></i> Experiences</a>
@@ -76,14 +85,20 @@
                         </a>
                         <div class="card-body">
                             <h2 class="card-title"><b>Pesonal Information</b></h2>
-                            <p class="card-text"><i class="bi bi-person-fill"></i> <b class="text-black">ชื่อ :</b> นายธนกฤตษ์ วงศ์อาษา</p>
-                            <p class="card-text"><i class="bi bi-clock-fill"></i> <b class="text-black">วันเกิด :</b> 28 กันยายน พ.ศ.2545
+                            <p class="card-text"><i class="bi bi-person-fill"></i> <b class="text-black">ชื่อ :</b>
+                                นายธนกฤตษ์ วงศ์อาษา</p>
+                            <p class="card-text"><i class="bi bi-clock-fill"></i> <b class="text-black">วันเกิด :</b> 28
+                                กันยายน พ.ศ. 2545
                             </p>
-                            <p class="card-text"><i class="bi bi-flag-fill"></i> <b class="text-black">สัญชาติ :</b> ไทย</p>
-                            <p class="card-text"><i class="bi bi-award-fill"></i> <b class="text-black">เกรดเฉลี่ย :</b> 4.00 </P>
-                            <p class="card-text"><i class="bi bi-palette-fill"></i> <b class="text-black">งานอดิเรก :</b> เล่นเปียโน
+                            <p class="card-text"><i class="bi bi-flag-fill"></i> <b class="text-black">สัญชาติ :</b> ไทย
+                            </p>
+                            <p class="card-text"><i class="bi bi-award-fill"></i> <b class="text-black">เกรดเฉลี่ย :</b>
+                                4.00 </P>
+                            <p class="card-text"><i class="bi bi-palette-fill"></i> <b class="text-black">งานอดิเรก
+                                    :</b> เล่นเปียโน
                                 และเขียนโปรแกรม</p>
-                            <p class="card-text"><i class="bi bi-telephone-fill"></i> <b class="text-black">โทร. :</b> 089-396-3455</p>
+                            <p class="card-text"><i class="bi bi-telephone-fill"></i> <b class="text-black">โทร. :</b>
+                                089-396-3455</p>
                             <div class="btn-group btn-group-justified d-flex" role="group">
                                 <a href="https://www.facebook.com/gainthanakrit" class="btn btn-primary w-100"><i
                                         class="bi bi-facebook"></i> <br class="d-md-none">Facebook</a>
@@ -96,9 +111,8 @@
                                         fill="currentColor" class="bi bi-line" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd"
                                             d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0zM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157zm.791-2.924h.562c.086 0 .155.07.155.156v3.486c0 .086-.07.155-.155.155h-.562a.156.156 0 0 1-.156-.155V4.918c0-.086.07-.156.156-.156zm3.863 0h.56c.087 0 .157.07.157.156v3.486c0 .086-.07.155-.156.155h-.561a.155.155 0 0 1-.04-.005h-.002a.168.168 0 0 1-.011-.004l-.005-.002-.007-.003a.066.066 0 0 1-.008-.004L9.6 8.54l-.01-.006-.001-.001a.154.154 0 0 1-.04-.039l-1.6-2.16v2.07a.155.155 0 0 1-.155.156h-.561a.156.156 0 0 1-.156-.155V4.918c0-.086.07-.156.156-.156H7.8l.005.001h.006l.003.001h.006l.01.003h.002l.002.001.01.003.005.002a.09.09 0 0 1 .009.004l.003.001.002.001a.113.113 0 0 1 .013.008l.003.002.005.003v.001c.002 0 .003.002.004.003a.092.092 0 0 1 .008.006l.003.003a.17.17 0 0 1 .023.026L9.52 6.99V4.918c0-.086.07-.156.156-.156zm3.815.717c0 .086-.07.156-.155.156H11.81v.59h1.525c.086 0 .155.07.155.155v.561c0 .086-.07.156-.155.156H11.81v.59h1.525c.086 0 .155.07.155.155v.561c0 .086-.07.156-.155.156h-2.242a.155.155 0 0 1-.11-.045l-.002-.003a.155.155 0 0 1-.044-.107V4.918c0-.042.017-.08.043-.107l.003-.003.001-.001a.155.155 0 0 1 .109-.045h2.242c.086 0 .155.07.155.156v.561z" />
-                                        </svg> <br class="d-md-none">Line</a>
-                                    </div>
-                                <br>
+                                    </svg> <br class="d-md-none">Line</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,12 +136,12 @@
                             </b>ซึ่งทำให้ผมเกิดความสนใจในด้านนี้มากยิ่งขึ้น
                             ซึ่งทำให้ผมเกิดความสนใจในด้านนี้มากยิ่งขึ้น<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ในเวลาถัดมา ผมมีโอกาสได้สอบและเข้าร่วมใน 
+                            ในเวลาถัดมา ผมมีโอกาสได้สอบและเข้าร่วมใน
                             <b>ค่ายอบรมโครงการโอลิมปิกวิชาการ วิชาคอมพิวเตอร์</b>
                             โดยในค่ายนั้น ผมได้เรียนรู้หลักการเขียนโปรแกรม
                             และเปรียบเสมือนเป็นการเปิดโลกแห่งคอมพิวเตอร์ให้กับผม<br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ความฝันอย่างหนึ่งของผมคือการสร้างนวัตกรรมที่สามารถนำมาช่วยคนในโลกนี้ในด้านใดด้านหนึ่ง
+                            ความฝันอย่างหนึ่งของผมคือการสร้างนวัตกรรมที่สามารถนำมาช่วยคนในโลกนี้นด้านใดด้านหนึ่ง
                             นวัตกรรมนั้นไม่จำเป็นต้องเป็นนวัตกรรมเปลี่ยนเปลี่ยนโลก
                             แต่ขอเพียงแค่มันสามารถสร้างประโยชน์แก่ใครซักคนได้ก็เพียงพอ
                             ซึ่งผมคิดว่าด้วยความถนัดของผม การเข้าเรียนต่อใน
@@ -143,7 +157,8 @@
             </div>
             <div class="row pt-5 pb-5 align-items-center">
                 <div class="col text-center">
-                    <p class="fs-1"><b>"</b> <br class="d-md-none">ความพยายามอยู่ที่ไหน ความสำเร็จอยู่ที่นั่น <br class="d-md-none"><b>"</b></p>
+                    <p class="fs-1"><b>"</b> <br class="d-md-none">ความพยายามอยู่ที่ไหน <br
+                            class="d-md-none">ความสำเร็จอยู่ที่นั่น <br class="d-md-none"><b>"</b></p>
                 </div>
             </div>
         </div>
@@ -152,6 +167,22 @@
         <div class="container">
             <hr />
             <h1 class="display-4 htopic">Activities</h1>
+                <div class="px-2 py-4 mb-4 bg-light border rounded-3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a data-bs-toggle="modal" data-bs-target="#pic1">
+                                    <img class="img-fluid rounded"src="https://scontent.fbkk5-6.fna.fbcdn.net/v/t1.6435-9/215173950_2310413462422706_6319984749850905482_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=0QXL522XfqwAX9FZN5D&_nc_ht=scontent.fbkk5-6.fna&oh=f61141552d965322bca0c8e94db040d6&oe=61A4D336"
+                                        alt="Thanakrit Wong-asa">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h1 class="display">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </div>
@@ -173,9 +204,10 @@
 
     </footer>
     <div>
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="JS/scripts.js"></script>
     </div>
 </body>
