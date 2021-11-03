@@ -40,6 +40,9 @@ body{
 .b-sd{
     background-color: var(--sdcolor);
 }
+.text-black{
+    color: black;
+}
 b{
     color: var(--pmcolor);
 }
