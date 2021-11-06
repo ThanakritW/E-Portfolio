@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatiable" content="ie=edge" />
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css" />
@@ -51,12 +50,12 @@
     </header>
     <nav id="NavBar" class="b-sd navbar navbar-dark navbar-expand-md sticky-top fs-5">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbaritems">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand mr-auto fs-5" href="#"><i class="c-pm bi bi-laptop text-white"></i> Thanakrit
                 Wong-asa</a>
-            <div class="collapse navbar-collapse" id="navbar">
+            <div class="collapse navbar-collapse" id="navbaritems">
                 <ul class="navbar-nav mr-auto d-flex justify-content-evenly w-100">
                     <li class="nav-item">
                         <a class="nav-link" href="#AboutMe"><i class="bi bi-person-bounding-box"></i> About me</a>
@@ -191,10 +190,10 @@
                 </div>
             </div>
             <div id="schools" class="m-4 carousel slide border-dark border rounded-3"
-                data-bs-ride="carousel" data-bs-interval ="false">
-                <div class="carousel-inner">
+                data-bs-ride="carousel" data-bs-interval ="false"   >
+                <div class="carousel-inner" style="min-height: 100%;">
                     <div class="carousel-item active">
-                        <div class="container-fluid py-3 p-auto">
+                        <div class="container-fluid py-3 px-auto">
                             <div class="row">
                                 <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/DonBosco.png" class="m-3 img-fluid d-block" style="height: 250px;">
@@ -207,7 +206,7 @@
                                         <p class="fs-4 d-md-none"> ระดับอนุบาล 1-3</p>
                                         <p class="fs-4 d-none d-md-block"> ระดับชั้นประถมศึกษาปีที่ 1-6</p>
                                         <p class="fs-4 d-md-none"> ระดับประถมปีที่ 1-6</p>
-                                        <p class="fs-4"> สายการเรียน : วิทย์-คณิต & EP</p>
+                                        <p class="fs-4"> สายการเรียน : วิทย์-คณิต</p>
                                         <p class="fs-4"> GPA : 4.00</p>
                                     </div>
                                 </div>
@@ -223,11 +222,12 @@
                                 <div class="col-12 col-md-9">
                                     <h1><b class="text-black">โรงเรียนอุดรพิทยานุกูล</b> <br class="d-md-none"> <span
                                             class="badge rounded-3 bg-danger">2015 - 2017</span></h1>
-                                    <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto" style="border-left: 4px solid var(--pmcolor)">
-                                        <p class="fs-4"> ระดับชั้นมัธยมศึกษาตอนต้นปีที่ 1-3</p>
+                                    <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto" style="border-left: 4px solid var(--pmcolor);">
+                                        <p class="fs-4 d-none d-md-block"> ระดับชั้นมัธยมศึกษาตอนต้นปีที่ 1-3</p>
+                                        <p class="fs-4 d-md-none"> ระดับมัธยม 1-3</p>
                                         <p class="fs-4"> สายการเรียน : วิทย์-คณิต</p>
                                         <p class="fs-4"> GPA : 4.00</p>
-                                    </div><br>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -238,12 +238,13 @@
                                 <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/Nixa.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
+                                <div class="col-12 col-md-9">   
                                     <h1><b class="text-black">Nixa High School</b> <br class="d-md-none"> <span
                                             class="badge rounded-3 bg-primary">USA</span> <span
                                             class="badge rounded-3 bg-danger">2018</span></h1>
-                                    <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto" style="border-left: 4px solid var(--pmcolor)">
-                                        <p class="fs-4"> ระดับชั้นมัธยมศึกษาตอนปลายปีที่ 4</p>
+                                    <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto" style="border-left: 4px solid var(--pmcolor);">
+                                        <p class="fs-4 d-none d-md-block"> ระดับ Grade 10 (Sophomore)</p>
+                                        <p class="fs-4 d-md-none"> ระดับ Grade 10</p>
                                         <p class="fs-4"> สายการเรียน : ไม่มีสายการเรียน</p>
                                         <p class="fs-4"> GPA : 4.00</p>
                                     </div>
@@ -259,9 +260,10 @@
                                 </div>
                                 <div class="col-12 col-md-9">
                                     <h2><b class="text-black">โรงเรียนสาธิตมหาวิทยาลัยขอนแก่น (ศึกษาศาสตร์)</b> <br class="d-md-none"> <span
-                                            class="badge rounded-3 bg-danger">2019 - 2021</span></h1>
-                                    <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto" style="border-left: 4px solid var(--pmcolor)">
-                                        <p class="fs-4"> ระดับชั้นมัธยมศึกษาตอนปลายปีที่ 4-6</p>
+                                            class="badge rounded-3 bg-danger">2019 - 2021</span></h2>
+                                    <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto" style="border-left: 4px solid var(--pmcolor);">
+                                        <p class="fs-4 d-none d-md-block"> ระดับชั้นมัธยมศึกษาตอนปลายปีที่ 4-6</p>
+                                        <p class="fs-4 d-md-none"> ระดับชั้นมัธยม 4-6</p>
                                         <p class="fs-4"> สายการเรียน : วิทย์-คณิต</p>
                                         <p class="fs-4"> GPA : 4.00</p>
                                     </div>
@@ -297,9 +299,6 @@
     <footer>
     </footer>
     <div>
-        <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
