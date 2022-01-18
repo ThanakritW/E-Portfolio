@@ -12,6 +12,9 @@
         font-family: mitr;
         background-color: white;
     }
+    a{
+        cursor: pointer;
+    }
     .bg-gray{
         background-color: #ebebeb;
     }
