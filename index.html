@@ -28,13 +28,12 @@
                 </div>
             </div>
         </div>
-        <div class="position-fixed bottom-0 start-50 translate-middle-x p-3 d-block d-md-none" style="z-index: 2;">
+        <div class="position-fixed bottom-0 start-50 translate-middle-x p-3 d-block d-lg-none" style="z-index: 2;">
             <div id="MobileAlert" class="b-pm toast" role="alert" data-bs-autohide="false" aria-live="assertive"
                 aria-atomic="true">
                 <div class="d-flex">
                     <div class="toast-body">
-                        <span
-                            class="text-white fw-bold">กรุณาเข้าชมในคอมพิวเตอร์หรือแท็บเล็ต<br>เพื่อประสบการณ์ที่ดีที่สุด<span>
+                        <span class="text-white fw-bold">การเข้าชมในโทรศัพท์อาจทำให้<br>อักษรคลาดเคลื่อนเล็กน้อย<span>
                     </div>
                     <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
                         aria-label="Close"></button>
@@ -143,7 +142,23 @@
                     </div>
                     <div class="modal-body">
                         <div class="container m-auto">
-                            <img src="Photo/TOCPC.jpeg" class="shadow w-100 rounded-3" alt="POSNMath">
+                            <img src="Photo/TOCPC.jpeg" class="shadow w-100 rounded-3" alt="TOCPC">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pic8">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container m-auto">
+                            <img src="Photo/CHEM.jpeg" class="shadow w-100 rounded-3" alt="ChemC"><br>
+                            <hr />
+                            <img src="Photo/CHEMP.png" class="shadow w-100 rounded-3" alt="ChemP">
                         </div>
                     </div>
                 </div>
@@ -157,12 +172,12 @@
                     <div class="col text-center" style="font-family: monospace;">
                         <h1 class="display-1 c-sd">Hello World!</h1>
                         <p class="display-5 text-white" style="line-height: 1.5em;">My name is <br
-                                class="d-md-none">Thanakrit Wong-asa<br>and this is my <br
-                                class="d-md-none"><b>E-Portfolio!</b></p>
+                                class="d-lg-none">Thanakrit Wong-asa<br>and this is my <br
+                                class="d-lg-none"><b>E-Portfolio!</b></p>
                         <p class="text-white" style="font-size:30px; line-height: 1.5em;"><i
-                                class="c-pm bi bi-gear-fill"><br class="d-md-none"></i> I want to be a
+                                class="c-pm bi bi-gear-fill"><br class="d-lg-none"></i> I want to be a
                             software engineer
-                            <br class="d-md-none"><i class="c-pm bi bi-gear-fill"></i>
+                            <br class="d-lg-none"><i class="c-pm bi bi-gear-fill"></i>
                         </p>
                         <a href="#AboutMe" class="btn b-sd fs-5" style="width: 250px; color:white;">Let's Get
                             Started!</a>
@@ -171,7 +186,7 @@
             </div>
         </div>
     </header>
-    <nav id="NavBar" class="b-sd navbar navbar-dark navbar-expand-md sticky-top fs-5" style="z-index: 1;">
+    <nav id="NavBar" class="b-sd navbar navbar-dark navbar-expand-lg sticky-top fs-5" style="z-index: 1;">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbaritems">
                 <span class="navbar-toggler-icon"></span>
@@ -205,7 +220,7 @@
         <div class="container">
             <h1 class="display-4 htopic fw-bold">About Me</h1>
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-lg-4">
                     <div class="card">
                         <a data-bs-toggle="modal" data-bs-target="#pic1">
                             <img src="Photo/pfp.jpeg" class="card-img-top" alt="Thanakrit Wong-asa">
@@ -234,23 +249,23 @@
                             <div class="btn-group btn-group-justified d-flex" role="group">
                                 <a href="https://www.facebook.com/gainthanakrit" target="_blank"
                                     class="btn btn-primary w-100"><i class="bi bi-facebook"></i> <br
-                                        class="d-md-none">Facebook</a>
+                                        class="d-lg-none">Facebook</a>
                                 <a href="https://github.com/ThanakritW" class="btn w-100" target="_blank"
                                     style="background-color: #333; color: white;"><i class="bi bi-github"></i> <br
-                                        class="d-md-none">GitHub</a>
+                                        class="d-lg-none">GitHub</a>
                                 <a href="https://line.me/ti/p/52QkKpk9Gw" target="_blank" class="btn w-100"
                                     style="background-color: #00B900; color: white;"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
                                         fill="currentColor" class="bi bi-line" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd"
                                             d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0zM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157zm.791-2.924h.562c.086 0 .155.07.155.156v3.486c0 .086-.07.155-.155.155h-.562a.156.156 0 0 1-.156-.155V4.918c0-.086.07-.156.156-.156zm3.863 0h.56c.087 0 .157.07.157.156v3.486c0 .086-.07.155-.156.155h-.561a.155.155 0 0 1-.04-.005h-.002a.168.168 0 0 1-.011-.004l-.005-.002-.007-.003a.066.066 0 0 1-.008-.004L9.6 8.54l-.01-.006-.001-.001a.154.154 0 0 1-.04-.039l-1.6-2.16v2.07a.155.155 0 0 1-.155.156h-.561a.156.156 0 0 1-.156-.155V4.918c0-.086.07-.156.156-.156H7.8l.005.001h.006l.003.001h.006l.01.003h.002l.002.001.01.003.005.002a.09.09 0 0 1 .009.004l.003.001.002.001a.113.113 0 0 1 .013.008l.003.002.005.003v.001c.002 0 .003.002.004.003a.092.092 0 0 1 .008.006l.003.003a.17.17 0 0 1 .023.026L9.52 6.99V4.918c0-.086.07-.156.156-.156zm3.815.717c0 .086-.07.156-.155.156H11.81v.59h1.525c.086 0 .155.07.155.155v.561c0 .086-.07.156-.155.156H11.81v.59h1.525c.086 0 .155.07.155.155v.561c0 .086-.07.156-.155.156h-2.242a.155.155 0 0 1-.11-.045l-.002-.003a.155.155 0 0 1-.044-.107V4.918c0-.042.017-.08.043-.107l.003-.003.001-.001a.155.155 0 0 1 .109-.045h2.242c.086 0 .155.07.155.156v.561z" />
-                                    </svg> <br class="d-md-none">Line</a>
+                                    </svg> <br class="d-lg-none">Line</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <br class="d-md-none">
+                <div class="col-lg-8">
+                    <br class="d-lg-none">
                     <div class="row ms-1 ps-2" style="border-left: 4px solid var(--pmcolor)">
                         <h1 class="display-6 htopic">My Motivation <br>แรงบันดาลใจ</h1>
                     </div>
@@ -296,8 +311,8 @@
         </div>
         <div class="row pt-3 pb-5 align-items-center">
             <div class="col text-center">
-                <p class="fs-1"><b>"</b> <br class="d-md-none">ความพยายามอยู่ที่ไหน <br
-                        class="d-md-none">ความสำเร็จอยู่ที่นั่น <br class="d-md-none"><b>"</b></p>
+                <p class="fs-1"><b>"</b> <br class="d-lg-none">ความพยายามอยู่ที่ไหน <br
+                        class="d-lg-none">ความสำเร็จอยู่ที่นั่น <br class="d-lg-none"><b>"</b></p>
             </div>
         </div>
     </div>
@@ -331,11 +346,11 @@
                     <div class="carousel-item active">
                         <div class="container-fluid py-3 px-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/DonBosco.png" class="m-3 img-fluid d-block" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
-                                    <h1><b class="text-black">โรงเรียนดอนบอสโกวิทยา</b> <br class="d-md-none"> <span
+                                <div class="col-12 col-lg-9">
+                                    <h1><b class="text-black">โรงเรียนดอนบอสโกวิทยา</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-danger">2005 - 2014</span></h1>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
                                         style="border-left: 4px solid var(--pmcolor)">
@@ -350,11 +365,11 @@
                     <div class="carousel-item">
                         <div class="container-fluid py-3 p-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/Udonpit.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
-                                    <h1><b class="text-black">โรงเรียนอุดรพิทยานุกูล</b> <br class="d-md-none"> <span
+                                <div class="col-12 col-lg-9">
+                                    <h1><b class="text-black">โรงเรียนอุดรพิทยานุกูล</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-danger">2015 - 2017</span></h1>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
                                         style="border-left: 4px solid var(--pmcolor);">
@@ -368,11 +383,11 @@
                     <div class="carousel-item">
                         <div class="container-fluid py-3 p-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/Nixa.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
-                                    <h1><b class="text-black">Nixa High School</b> <br class="d-md-none"> <span
+                                <div class="col-12 col-lg-9">
+                                    <h1><b class="text-black">Nixa High School</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-primary">USA</span> <span
                                             class="badge rounded-3 bg-danger">2018</span></h1>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
@@ -387,12 +402,12 @@
                     <div class="carousel-item">
                         <div class="container-fluid py-3 p-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/KKU.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
+                                <div class="col-12 col-lg-9">
                                     <h2><b class="text-black">โรงเรียนสาธิตมหาวิทยาลัยขอนแก่น
-                                            (ศึกษาศาสตร์)</b> <br class="d-md-none"> <span
+                                            (ศึกษาศาสตร์)</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-danger">2019 -
                                             2021</span></h2>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
@@ -413,11 +428,11 @@
                     <div class="carousel-item active">
                         <div class="container-fluid py-3 px-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/DonBosco.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
-                                    <h1><b class="text-black">โรงเรียนดอนบอสโกวิทยา</b> <br class="d-md-none"> <span
+                                <div class="col-12 col-lg-9">
+                                    <h1><b class="text-black">โรงเรียนดอนบอสโกวิทยา</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-danger">2005 - 2014</span></h1>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
                                         style="height:300px; border-left: 4px solid var(--pmcolor)">
@@ -432,11 +447,11 @@
                     <div class="carousel-item">
                         <div class="container-fluid py-3 p-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/Udonpit.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
-                                    <h1><b class="text-black">โรงเรียนอุดรพิทยานุกูล</b> <br class="d-md-none"> <span
+                                <div class="col-12 col-lg-9">
+                                    <h1><b class="text-black">โรงเรียนอุดรพิทยานุกูล</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-danger">2015 - 2017</span></h1>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
                                         style="height:300px; border-left: 4px solid var(--pmcolor);">
@@ -450,11 +465,11 @@
                     <div class="carousel-item">
                         <div class="container-fluid py-3 p-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/Nixa.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
-                                    <h1><b class="text-black">Nixa High School</b> <br class="d-md-none"> <span
+                                <div class="col-12 col-lg-9">
+                                    <h1><b class="text-black">Nixa High School</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-primary">USA</span> <span
                                             class="badge rounded-3 bg-danger">2018</span></h1>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
@@ -469,12 +484,12 @@
                     <div class="carousel-item">
                         <div class="container-fluid py-3 p-auto">
                             <div class="row">
-                                <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
                                     <img src="Photo/KKU.png" class="m-3 img-fluid" style="height: 250px;">
                                 </div>
-                                <div class="col-12 col-md-9">
+                                <div class="col-12 col-lg-9">
                                     <h2><b class="text-black">โรงเรียนสาธิตมหาวิทยาลัยขอนแก่น
-                                            (ศึกษาศาสตร์)</b> <br class="d-md-none"> <span
+                                            (ศึกษาศาสตร์)</b> <br class="d-lg-none"> <span
                                             class="badge rounded-3 bg-danger">2019 -
                                             2021</span></h2>
                                     <div class="row ms-2 ps-2 h-75 align-items-center align-self-auto"
@@ -500,7 +515,7 @@
                 <div class="container">
                     <h1 class="display-5 fw-bold">Thailand Olympiad in Informatics 2021 : TOI2021</h1>
                     <div class="row">
-                        <div class="col-md-7 col-12">
+                        <div class="col-lg-7 col-12">
                             <h1 class="fs-2"><span class="fw-bold" style="color:#cf3824;">รางวัลเหรียญทองแดง</span>
                                 ณ มหาวิทยาลัยวลัยลักษณ์ </h1>
                             <h1 class="fs-3">วันที่ 9-12 ธันวาคม พ.ศ. 2564 </h1>
@@ -508,7 +523,7 @@
                                 <span class="badge bg-primary rounded-3">คอมพิวเตอร์</span> <span
                                     class="badge bg-danger rounded-3">ระดับประเทศ</span>
                             </h1>
-                            <div class="my-3 d-block d-md-none">
+                            <div class="my-3 d-block d-lg-none">
                                 <a data-bs-toggle="modal" data-bs-target="#pic2">
                                     <img class="img-fluid shadow" src="Photo/toi17cert.png" alt="TOI17">
                                 </a>
@@ -529,7 +544,7 @@
                                 Programming และพัฒนาศักยภาพในการคิดของผม
                             </p>
                         </div>
-                        <div class="d-none d-md-block col-md-5 align-self-center">
+                        <div class="d-none d-lg-block col-lg-5 align-self-center">
                             <a data-bs-toggle="modal" data-bs-target="#pic2">
                                 <img class="img-fluid shadow" src="Photo/toi17cert.png" alt="TOI17">
                             </a>
@@ -542,7 +557,7 @@
                 <div class="container">
                     <h1 class="display-5 fw-bold">iCode Programming Contest 2019</h1>
                     <div class="row">
-                        <div class="col-md-7 col-12">
+                        <div class="col-lg-7 col-12">
                             <h1 class="fs-2"><span class="fw-bold" style="color:#e7a900;">รางวัลชนะเลิศ</span> ณ
                                 มหาวิทยาลัยเชียงใหม่ </h1>
                             <h1 class="fs-3">วันที่ 18 สิงหาคม พ.ศ. 2562 </h1>
@@ -550,7 +565,7 @@
                                 <span class="badge bg-primary rounded-3">คอมพิวเตอร์</span> <span
                                     class="badge bg-danger rounded-3">ระดับประเทศ</span>
                             </h1>
-                            <div class="my-3 d-block d-md-none">
+                            <div class="my-3 d-block d-lg-none">
                                 <a data-bs-toggle="modal" data-bs-target="#pic3">
                                     <img class="img-fluid shadow" src="Photo/iCodecert.jpeg" alt="iCode">
                                 </a>
@@ -571,7 +586,7 @@
                                 รวมถึงเป็นการพัฒนาทักษะการคิดไปในตัวเช่นเดียวกัน
                             </p>
                         </div>
-                        <div class="d-none d-md-block col-md-5 align-self-center">
+                        <div class="d-none d-lg-block col-lg-5 align-self-center">
                             <a data-bs-toggle="modal" data-bs-target="#pic3">
                                 <img class="img-fluid shadow" src="Photo/iCodecert.jpeg" alt="iCode">
                             </a>
@@ -584,13 +599,13 @@
                 <div class="container">
                     <h1 class="display-5 fw-bold">ค่ายโอลิมปิกวิชาการ (คอมพิวเตอร์)</h1>
                     <div class="row">
-                        <div class="col-md-7 col-12">
+                        <div class="col-lg-7 col-12">
                             <h1 class="fs-2">ได้ผ่านการอบรมค่ายโอลิมปิกวิชาการค่าย 1 และ 2
                                 ประจำปีการศึกษา 2560 และปีการศึกษา 2563 </h1>
                             <h1 class="fs-3"><span class="badge bg-info rounded-3">ค่ายวิชาการ</span>
                                 <span class="badge bg-primary rounded-3">คอมพิวเตอร์</span>
                             </h1>
-                            <div class="my-3 d-block d-md-none">
+                            <div class="my-3 d-block d-lg-none">
                                 <a data-bs-toggle="modal" data-bs-target="#pic4">
                                     <img class="img-fluid shadow" src="Photo/POSNCom.png" alt="OlymCom">
                                 </a>
@@ -608,7 +623,7 @@
                                 Data Structure/Algorithm ในระดับง่าย
                             </p>
                         </div>
-                        <div class="d-none d-md-block col-md-5 align-self-center">
+                        <div class="d-none d-lg-block col-lg-5 align-self-center">
                             <a data-bs-toggle="modal" data-bs-target="#pic4">
                                 <img class=" img-fluid shadow" src="Photo/POSNCom.png" alt="OlymCom">
                             </a>
@@ -621,13 +636,13 @@
                 <div class="container">
                     <h1 class="display-5 fw-bold">ค่ายโอลิมปิกวิชาการ (คณิตศาสตร์)</h1>
                     <div class="row">
-                        <div class="col-md-7 col-12">
+                        <div class="col-lg-7 col-12">
                             <h1 class="fs-2">ได้ผ่านการอบรมค่ายโอลิมปิกวิชาการค่าย 1 <br>ประจำปีการศึกษา
                                 2562</h1>
                             <h1 class="fs-3"><span class="badge bg-info rounded-3">ค่ายวิชาการ</span>
                                 <span class="badge bg-success rounded-3">คณิตศาสตร์</span>
                             </h1>
-                            <div class="my-3 d-block d-md-none">
+                            <div class="my-3 d-block d-lg-none">
                                 <a data-bs-toggle="modal" data-bs-target="#pic5">
                                     <img class="img-fluid shadow" src="Photo/PosnMath.png" alt="OlymCom">
                                 </a>
@@ -642,7 +657,7 @@
                                 การพิสูจน์สมการทางคณิตศาสตร์ พัฒนาทักษะการคิด
                             </p>
                         </div>
-                        <div class="d-none d-md-block col-md-5 align-self-center">
+                        <div class="d-none d-lg-block col-lg-5 align-self-center">
                             <a data-bs-toggle="modal" data-bs-target="#pic5">
                                 <img class=" img-fluid shadow" src="Photo/PosnMath.png" alt="OlymCom">
                             </a>
@@ -655,7 +670,7 @@
                 <div class="container">
                     <h1 class="display-5 fw-bold">SCiUS Forum ครั้งที่ 11</h1>
                     <div class="row">
-                        <div class="col-md-7 col-12">
+                        <div class="col-lg-7 col-12">
                             <h1 class="fs-2"><span class="fw-bold" style="color:darkgrey;">รางวัลเหรียญเงิน</span>
                                 การนำเสนอโครงงานวิทยาศาสตร์
                                 สาขาคณิตศาสตร์ ในรูปแบบ Oral Presentation</h1>
@@ -664,7 +679,7 @@
                                     class="badge bg-danger rounded-3">ระดับประเทศ</span>
                             </h1>
                             </h1>
-                            <div class="my-3 d-block d-md-none">
+                            <div class="my-3 d-block d-lg-none">
                                 <a data-bs-toggle="modal" data-bs-target="#pic6">
                                     <img class="img-fluid shadow" src="Photo/ForumP.png" alt="ForumP">
                                 </a>
@@ -688,7 +703,7 @@
                                 Game Theory, ทักษะการพูดและนำเสนอ, Minimax
                             </p>
                         </div>
-                        <div class="d-none d-md-block col-md-5 align-self-center">
+                        <div class="d-none d-lg-block col-lg-5 align-self-center">
                             <a data-bs-toggle="modal" data-bs-target="#pic6">
                                 <img class=" img-fluid shadow" src="Photo/ForumP.png" alt="ForumP">
                             </a>
@@ -701,18 +716,18 @@
                 <div class="container">
                     <h1 class="display-5 fw-bold">Thailand Online Competitive Programming Contest 2021 :
                         TOCPC2021</h1>
-                    <h1 class="fs-3">วันที่ 20-21 พฤศจิกายน พ.ศ. 2564</h1>
                     <div class="row">
-                        <div class="col-md-7 col-12">
+                        <div class="col-lg-7 col-12">
                             <h1 class="fs-2"><span class="fw-bold c-pm">รางวัลคะแนนสูงสุด 64
                                     อันดับแรก</span><br>จากผู้เข้าร่วมการแข่งขัน 954 คน</h1>
+                            <h1 class="fs-3">วันที่ 20-21 พฤศจิกายน พ.ศ. 2564</h1>
                             <h1 class=" fs-3"><span class="badge bg-warning rounded-3">งานแข่งขัน</span> <span
                                     class="badge bg-primary rounded-3">คอมพิวเตอร์</span> <span
                                     class="badge bg-danger rounded-3">ระดับประเทศ</span></h1>
                             </h1>
-                            <div class="my-3 d-block d-md-none">
+                            <div class="my-3 d-block d-lg-none">
                                 <a data-bs-toggle="modal" data-bs-target="#pic7">
-                                    <img class="img-fluid shadow" src="Photo/TOCPC.jpeg" alt="ForumP">
+                                    <img class="img-fluid shadow" src="Photo/TOCPC.jpeg" alt="TOCPC">
                                 </a>
                             </div><br>
                             <p class="fs-5">
@@ -729,16 +744,93 @@
                                 ที่ใช้ในการแข่งขัน
                             </p>
                         </div>
-                        <div class="d-none d-md-block col-md-5 align-self-center">
+                        <div class="d-none d-lg-block col-lg-5 align-self-center">
                             <a data-bs-toggle="modal" data-bs-target="#pic7">
-                                <img class=" img-fluid shadow" src="Photo/TOCPC.jpeg" alt="ForumP">
+                                <img class=" img-fluid shadow" src="Photo/TOCPC.jpeg" alt="TOCPC">
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 class="display-5" style="color:#333">This section is still WIP. Please check back later.
-            </h2>
+            <hr />
+            <div>
+                <div class="container">
+                    <h1 class="display-5 fw-bold">MCTM Math Contests</h1>
+                    <div class="row">
+                        <div class="col-lg-7 col-12">
+                            <h1 class="fs-2"><span class="fw-bold c-pm">รางวัลคะแนนสูงสุด 64
+                                    อันดับแรก</span><br>จากผู้เข้าร่วมการแข่งขัน 954 คน</h1>
+                            <h1 class=" fs-3"><span class="badge bg-warning rounded-3">งานแข่งขัน</span> <span
+                                    class="badge bg-primary rounded-3">คอมพิวเตอร์</span> <span
+                                    class="badge bg-danger rounded-3">ระดับรัฐ</span> <span
+                                    class="badge bg-dark">USA</span></h1>
+                            </h1>
+                            <div class="my-3 d-block d-lg-none">
+                                <img class="img-fluid" src="Photo/MCTM.png" alt="MCTM">
+                            </div><br>
+                            <p class="fs-5">
+                                MCTM
+                                เป็นการแข่งขันคณิตศาสตร์ซึ่งจัดขึ้นเพื่อวัดความสามารถของเด็กที่กำลังศึกษาในระดับชั้น
+                                High school ของรัฐ Missouri ซึ่งจัดโดย Missouri Council of Teachers of Mathematics
+                                Contest ภายในการแข่งขันจะมีรูปแบบการแข่งขันหลากหลายรูปแบบ ผมได้มีโอกาสแข่งขันทั้งหมด 6
+                                ครั้ง และได้รับรางวัลต่างๆ ได้แก่<br>
+                                <span class="bi bi-award-fill fw-bold" style="color: #e7a900;"> รางวัลชนะเลิศแบบ Sprint
+                                    Event 2 ครั้ง</span><br>
+                                <span class="bi bi-award-fill fw-bold" style="color: #e7a900;"> รางวัลรองชนะเลิศ แบบ
+                                    Sprint Event 1 ครั้ง</span><br>
+                                <span class="bi bi-award-fill fw-bold" style="color: darkgrey;"> รางวัลรองชนะเลิศ แบบ
+                                    Team Event 1 ครั้ง</span><br>
+                                <span class="bi bi-award-fill c-pm fw-bold"> รางวัลลำดับที่ 5 แบบ Power
+                                    Question Event 1 ครั้ง</span><br>
+                                <span class="bi bi-award-fill c-pm fw-bold"> รางวัลลำดับที่ 5 Relay Event
+                                    1 ครั้ง</span><br>
+                                ณ Springfield Catholic High School,
+                                University of Missouri, Ozark High School และ Central High School
+                                <br><br><span class="fw-bold">สิ่งที่ได้รับจากการแข่งขัน : </span>
+                                ทักษะการแก้โจทย์ทางคณิตศาสตร์, ทักษะการทำงานเป็นทีม, ทักษะการสื่อสารภาษาอังกฤษ
+                            </p>
+                        </div>
+                        <div class="d-none d-lg-block col-lg-5 align-self-center">
+                            <img class=" img-fluid" src="Photo/MCTM.png" alt="MCTM">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div>
+                <div class="container">
+                    <h1 class="display-5 fw-bold">US National Chemistry Olympiad</h1>
+                    <div class="row">
+                        <div class="col-lg-7 col-12">
+                            <h1 class="fs-2"><span class="fw-bold" style="color:#e7a900;">รางวัลชนะเลิศ</span>
+                                ในระดับชั้น 1st Year ณ Drury University </h1>
+                            <h1 class="fs-3"><span class="badge bg-warning rounded-3">งานแข่งขัน</span> <span
+                                    class="badge rounded-3" style="background-color:darkslateblue;">เคมี</span> <span
+                                    class="badge bg-danger rounded-3">ระดับรัฐ</span> <span
+                                    class="badge bg-dark">USA</span></h1>
+                            </h1>
+                            <div class="my-3 d-block d-lg-none">
+                                <a data-bs-toggle="modal" data-bs-target="#pic8">
+                                    <img class="img-fluid shadow" src="Photo/CHEM.jpeg" alt="ChemC">
+                                </a>
+                            </div><br>
+                            <p class="fs-5">
+                                US National Chemistry Olympiad นั้นเทียบเท่ากับค่ายสอวน. สาขาวิชาเคมี ในประเทศไทย
+                                โดยการแข่งขันนี้จัดขึ้นโดย American Chemical Society
+                                โดยมีจุดประสงค์ในการหาผู้แทนเพื่อไปแข่งในการแข่งขัน IChO ของแต่ละปี
+                                ซึ่งผมได้รับ<b>รางวัลชนะเลิศในระดับชั้น 1st year ในรอบ Local Exam</b>
+                                <br><br><span class="fw-bold">สิ่งที่ได้รับจากการเข้าค่าย : </span>
+                                ทักษะการแก้โจทย์ทางเคมี
+                            </p>
+                        </div>
+                        <div class="text-center d-none d-lg-block col-lg-5 align-self-center">
+                            <a data-bs-toggle="modal" data-bs-target="#pic8">
+                                <img class="img-fluid shadow" style="width: 90%;" src="Photo/CHEM.jpeg" alt="ChemC">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="Experiences" class="topic">
