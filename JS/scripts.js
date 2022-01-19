@@ -4,3 +4,13 @@ function copytxt() {
     let bsAlert = new bootstrap.Toast(myAlert);
     bsAlert.show();
 }
+document.getElementById("cpybtn").onclick = function () {
+    var myAlert = document.getElementById("Copied");
+    var bsAlert = new bootstrap.Toast(myAlert);
+    bsAlert.show();//show it
+}
+window.onload = (event) => {
+    let myAlert = document.getElementById("MobileAlert");
+    var bsAlert = new bootstrap.Toast(myAlert);
+    bsAlert.show();//show it
+};

@@ -15,12 +15,26 @@
 
 <body data-bs-spy="scroll" data-bs-target="#NavBar" data-bs-offset="56">
     <div>
-        <div class="position-fixed bottom-0 start-50 translate-middle-x p-3" style="z-index: 1;">
+        <!--Toast and Modal-->
+        <div class="position-fixed bottom-0 start-50 translate-middle-x p-3" style="z-index: 3;">
             <div id="Copied" class="b-pm toast hide" role="alert" data-bs-delay="2000" aria-live="assertive"
                 aria-atomic="true">
                 <div class="d-flex">
                     <div class="toast-body">
                         <span class="text-white fw-bold fs-5">copied!!<span>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <div class="position-fixed bottom-0 start-50 translate-middle-x p-3 d-block d-md-none" style="z-index: 2;">
+            <div id="MobileAlert" class="b-pm toast" role="alert" data-bs-autohide="false" aria-live="assertive"
+                aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        <span
+                            class="text-white fw-bold">กรุณาเข้าชมในคอมพิวเตอร์หรือแท็บเล็ต<br>เพื่อประสบการณ์ที่ดีที่สุด<span>
                     </div>
                     <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
                         aria-label="Close"></button>
@@ -157,7 +171,7 @@
             </div>
         </div>
     </header>
-    <nav id="NavBar" class="b-sd navbar navbar-dark navbar-expand-md sticky-top fs-5">
+    <nav id="NavBar" class="b-sd navbar navbar-dark navbar-expand-md sticky-top fs-5" style="z-index: 1;">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbaritems">
                 <span class="navbar-toggler-icon"></span>
@@ -739,13 +753,6 @@
     <footer>
     </footer>
     <div>
-        <script>
-            document.getElementById("cpybtn").onclick = function () {
-                var myAlert = document.getElementById("Copied");
-                var bsAlert = new bootstrap.Toast(myAlert);
-                bsAlert.show();//show it
-            }
-        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
