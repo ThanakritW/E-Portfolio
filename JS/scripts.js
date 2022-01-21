@@ -14,3 +14,6 @@ window.onload = (event) => {
     var bsAlert = new bootstrap.Toast(myAlert);
     bsAlert.show();//show it
 };
+$(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+});
