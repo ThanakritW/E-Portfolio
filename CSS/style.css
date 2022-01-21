@@ -52,3 +52,15 @@
     html {
         scroll-behavior: smooth;
     }
+    .rounded-3{
+        border-radius: 0.4rem !important; 
+    }
+    .thmp{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: .2rem;
+    }
+    .bg-light-gray{
+        background-color: rgb(250, 250, 250);
+    }
